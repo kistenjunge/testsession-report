@@ -20,7 +20,7 @@ public class SessionReportTest
   {
     // given
     Testsheet testsheet = new TestSheetParser().parse(
-        new File(TestSheetParserTest.class.getResource("/sheets/fpf_antisocial.json").toURI()));
+        new File(TestSheetParserTest.class.getResource("/sheets/report_antisocial.json").toURI()));
     DateTime time = ISODateTimeFormat.dateTime().parseDateTime(testsheet.getStart());
     double expectedOffset = (double) 0;
     int expectedNumberOfTesters= testsheet.getTesters().size();
