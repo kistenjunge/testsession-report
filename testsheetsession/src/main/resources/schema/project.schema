@@ -1,0 +1,26 @@
+{
+    "type":"object",
+    "$schema": "http://json-schema.org/draft-03/schema",
+    "id": "http://jsonschema.net",
+    "required":false,
+    "properties":{
+        "components": {
+            "type":"array",
+            "id": "http://jsonschema.net/components",
+            "required":false,
+            "items":
+            {
+                "type":"string",
+                "id": "http://jsonschema.net/components/0",
+                "required":false
+            }
+
+
+        },
+        "name": {
+            "type":"string",
+            "id": "http://jsonschema.net/name",
+            "required":false
+        }
+    }
+}

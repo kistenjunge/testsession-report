@@ -1,0 +1,136 @@
+{
+    "type":"object",
+    "$schema": "http://json-schema.org/draft-03/schema",
+    "id": "http://jsonschema.net",
+    "required":false,
+    "properties":{
+        "browser": {
+            "type":"array",
+            "id": "http://jsonschema.net/browser",
+            "required":false,
+            "items":
+            {
+                "type":"string",
+                "id": "http://jsonschema.net/browser/0",
+                "required":false
+            }
+
+
+        },
+        "components": {
+            "type":"array",
+            "id": "http://jsonschema.net/components",
+            "required":false,
+            "items":
+            {
+                "type":"string",
+                "id": "http://jsonschema.net/components/0",
+                "required":false
+            }
+
+
+        },
+        "bugs": {
+            "type":"array",
+            "id": "http://jsonschema.net/bugs",
+            "required":false,
+            "items":
+            {
+                "type":"object",
+                "id": "http://jsonschema.net/bugs/0",
+                "required":false,
+                "properties":{
+                    "description": {
+                        "type":"string",
+                        "id": "http://jsonschema.net/bugs/0/description",
+                        "required":false
+                    },
+                    "id": {
+                        "type":"string",
+                        "id": "http://jsonschema.net/bugs/0/id",
+                        "required":false
+                    }
+                }
+            }
+
+
+        },
+        "charter": {
+            "type":"string",
+            "id": "http://jsonschema.net/charter",
+            "required":false
+        },
+        "issues": {
+            "type":"array",
+            "id": "http://jsonschema.net/issues",
+            "required":false,
+            "items":
+            {
+                "type":"string",
+                "id": "http://jsonschema.net/issues/0",
+                "required":false
+            }
+
+
+        },
+        "start": {
+            "type":"string",
+            "id": "http://jsonschema.net/start",
+            "required":false
+        },
+        "taskBreakdown": {
+            "type":"object",
+            "id": "http://jsonschema.net/taskBreakdown",
+            "required":false,
+            "properties":{
+                "designAndExecution": {
+                    "type":"integer",
+                    "id": "http://jsonschema.net/taskBreakdown/designAndExecution",
+                    "required":false,
+                    "default": 0
+                },
+                "bugInvestigationAndReporting": {
+                    "type":"integer",
+                    "id": "http://jsonschema.net/taskBreakdown/duration",
+                    "required":false,
+                    "default": 0
+                },
+                "opportunity": {
+                    "type":"integer",
+                    "id": "http://jsonschema.net/taskBreakdown/opportunity",
+                    "required":false,
+                    "default": 0
+                },
+                "sessionSetup": {
+                    "type":"integer",
+                    "id": "http://jsonschema.net/taskBreakdown/sessionSetup",
+                    "required":false,
+                    "default": 0
+                }
+            }
+        },
+        "testNotes": {
+            "type":"string",
+            "id": "http://jsonschema.net/testNotes",
+            "required":false
+        },
+        "testers": {
+            "type":"array",
+            "id": "http://jsonschema.net/testers",
+            "required":false,
+            "items":
+            {
+                "type":"string",
+                "id": "http://jsonschema.net/testers/0",
+                "required":false
+            }
+
+
+        },
+        "version": {
+            "type":"string",
+            "id": "http://jsonschema.net/version",
+            "required":false
+        }
+    }
+}
