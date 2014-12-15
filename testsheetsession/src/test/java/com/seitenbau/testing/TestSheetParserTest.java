@@ -13,7 +13,7 @@ public class TestSheetParserTest
   public void testParsing() throws Exception
   {
     // given
-    File testFile = new File(TestSheetParserTest.class.getResource("/sheets/fpf_antisocial.json").toURI());
+    File testFile = new File(TestSheetParserTest.class.getResource("/sheets/report_antisocial.json").toURI());
     TestSheetParser sut = new TestSheetParser();
 
     // when

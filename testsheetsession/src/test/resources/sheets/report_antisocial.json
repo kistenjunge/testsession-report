@@ -1,0 +1,34 @@
+{
+  "charter": "Enter some invalid data",
+  "browser": ["Firefox"],
+  "version": "1.0.3.RC5",
+  "components": [
+    "Create Something",
+    "Add Something"
+  ],
+  "testers": [
+    "Mr Jones"
+  ],
+  "start": "2014-11-21T13:00:00.000Z",
+  "taskBreakdown": {
+    "duration": 90,
+    "designAndExecution": 70,
+    "sessionSetup": 0,
+    "opportunity": 0
+  },
+  "testNotes": "- Did something\n- Did something else\n- had a break",
+  "bugs": [
+    {
+      "id": "Project-123",
+      "description": "OMG - Got a NPE while entering a very long string"
+    },
+    {
+      "description": "Forgot my id"
+    }
+  ],
+  "issues": [
+    "No clue what that does",
+    "It looks pretty ugly to me",
+    "Why?"
+  ]
+}
